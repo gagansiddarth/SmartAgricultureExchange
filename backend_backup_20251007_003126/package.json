@@ -1,0 +1,60 @@
+{
+  "name": "smart-agriculture-exchange-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Smart Agriculture Exchange platform",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon src/index-simple.ts",
+    "dev-full": "nodemon src/index.ts",
+    "dev-supabase": "nodemon src/index-supabase.ts",
+    "dev-supabase-simple": "nodemon src/index-supabase-simple.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "agriculture",
+    "marketplace",
+    "api",
+    "nodejs"
+  ],
+  "author": "Smart Agriculture Exchange Team",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.74.0",
+    "@types/bcryptjs": "^2.4.6",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.7",
+    "pg": "^8.16.3",
+    "redis": "^5.8.3",
+    "sharp": "^0.34.4",
+    "socket.io": "^4.8.1",
+    "twilio": "^5.10.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/helmet": "^0.0.48",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/morgan": "^1.9.10",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^24.6.2",
+    "@types/nodemailer": "^7.0.2",
+    "@types/pg": "^8.15.5",
+    "@types/sharp": "^0.31.1",
+    "@types/twilio": "^3.19.2",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
