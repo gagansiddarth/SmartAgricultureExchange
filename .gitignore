@@ -109,3 +109,25 @@ temp/
 
 # Local development files
 *.local
+
+# Documentation drafts and temporary files
+*_DRAFT.md
+*_TEMP.md
+*_BACKUP.md
+*_OLD.md
+*_DEBUG.md
+*_TROUBLESHOOTING.md
+
+# Setup and configuration scripts (keep only essential ones)
+setup-*.js
+setup-*.sql
+create-*.js
+create-*.sql
+fix-*.js
+debug-*.js
+check-*.js
+
+# Temporary markdown files
+temp-*.md
+draft-*.md
+notes-*.md
